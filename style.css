@@ -1,0 +1,217 @@
+body{
+   background-image: linear-gradient(rgb(241, 227, 227),rgb(185, 107, 107),gray);
+}
+.container{ 
+    width: 1080px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.navbar{
+   display: flex;
+   align-items: center;
+   min-height: 100px;
+   padding-bottom: 50px;
+ 
+}
+nav{
+    flex: 70%;
+    text-align: right;
+    font-size: 20px;
+    color: black;
+}
+nav a{
+    padding-right: 20px;
+    text-decoration: none;
+}
+.carousel{
+    background-color: bisque;
+    overflow: hidden;
+    height: 500px;
+}
+.carousel figure div{
+    float: left;
+    width: 20%;
+}
+.carousel figure img{
+    float: left;
+    width: 100%;
+}
+.carousel figure{
+    position: relative;
+    width:500%;
+    margin: 0px;
+    left: 0;
+    animation: 20s sif infinite;
+}
+@keyframes sif{
+    0%{
+        left: 0%;
+    }
+    10%{
+        left: 0%;
+    }
+    12%{
+        left: -100%;
+    }
+    22%{
+        left: -100%;
+    }
+    24%{
+        left: -200%;
+    }
+    34%{
+        left: -200%;
+    }
+    36%{
+        left: -300%;
+    }
+    46%{
+        left: -300%;
+    }
+    48%{
+        left: -400%;
+    }
+    58%{
+        left: -400%;
+    }
+    60%{
+        left: -300%;
+    }
+    70%{
+        left: -300%;
+    }
+    72%{
+        left: -200%;
+    }
+    82%{
+        left: -200%;
+    }
+    84%{
+        left: -100%;
+    }
+    94%{
+        left: 0%;
+    }
+    96%{
+        left: 0%;
+    }
+}
+h2{
+    padding-top: 50px;
+    text-align: center;
+    color: ghostwhite;
+}
+.card{
+    margin-top: 50px;
+    min-height: 250px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 3px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.card1{
+    width: 23%;
+    min-height: 250Px;
+}
+.card2{
+    width: 23%;
+    min-height: 250Px;
+}
+.card3{
+    width: 23%;
+    min-height: 250Px;
+}
+.card4{
+    width: 23%;
+    min-height: 250Px;
+}
+.card img{
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+}
+h4{
+    color: honeydew;
+}
+p{
+    color: ivory;
+}
+footer .main-content{
+    display: flex;
+    margin-top: 50px;
+    min-width: 150px;
+    justify-content: space-around;
+    background-color: rgba(15, 14, 19, 0.842);
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 40px;
+    font-family: 'Oswald', sans-serif;
+
+}
+.main-content h2{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-display: flex;
+    text-align: left;
+    color: teal;
+}
+.box1{
+   padding-top: 4px;
+}
+.main-content p{
+    color: teal;
+}
+.text{
+    color: teal;
+}
+.btn button{
+    color: black;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: crimson;
+}
+img:hover{
+    padding-top: 2px;
+}
+.box3 .icons{
+    font-size: 60px;
+}
+.box3 .icons i{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+.icons .f{
+    color: blue;
+}
+.ff{
+    color: rgb(43, 43, 158);
+}
+.fff{
+    color: rgb(173, 80, 57);
+}
+.ff1{
+    color: rgb(190, 14, 14);
+}
+.box3 .icons{
+    display: flex;
+}
+h4{
+    text-align: center;
+}
+.card p{
+    text-align: center;
+}
+h2::after{
+    content:'';
+    background: gray;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
